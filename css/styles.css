@@ -44,8 +44,13 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-size: 16px;
+    
 }
 
+nav ul li a:hover {
+    background-color: #726e6e;
+    
+}
 
 
 /* Otros estilos generales */
@@ -114,13 +119,19 @@ footer {
 .footer-section {
     display: flex;
     justify-content: space-around; /* Espacio entre los elementos del footer */
-    
     width: 100%;
     max-width: 1200px; /* Limitar el ancho del contenido del footer */
 }
 
+
 .footer-section div {
     margin: 0 20px; /* Espaciado entre las secciones del footer */
+    text-align: center; /* Alinear el contenido de cada sección al centro */
+}
+
+
+.footer-section div h3 {
+    margin: 20px; /* Espaciado entre las secciones del footer */
     text-align: center; /* Alinear el contenido de cada sección al centro */
 }
 
