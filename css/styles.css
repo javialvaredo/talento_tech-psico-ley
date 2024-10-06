@@ -112,20 +112,20 @@ footer {
     background-color:#afa3a38f; 
     padding: 20px;
     display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
+    justify-content:center; /* Centra el contenido horizontalmente */
     align-items: center; /* Centra verticalmente */
 }
 
 .footer-section {
     display: flex;
-    justify-content: space-around; /* Espacio entre los elementos del footer */
+    justify-content:space-around; /* Espacio entre los elementos del footer */
     width: 100%;
     max-width: 1200px; /* Limitar el ancho del contenido del footer */
 }
 
 
 .footer-section div {
-    margin: 0 20px; /* Espaciado entre las secciones del footer */
+    margin: 5px ; /* Espaciado entre las secciones del footer */
     text-align: center; /* Alinear el contenido de cada sección al centro */
 }
 
@@ -144,6 +144,7 @@ footer {
 .redes-sociales i {
     font-size: 2rem;
     margin-right: 10px;
+    
 }
 
 #h6-red-soc {
