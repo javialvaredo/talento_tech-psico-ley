@@ -106,6 +106,31 @@ audio, video {
     max-width: 100%;
 }
 
+#nosotros img {
+    width: 1000px;
+    margin: 20px;
+}
+
+.servicios-section {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 5px;
+    padding: 5px;
+    gap: 20px; /* Añade espacio entre los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es más pequeña */
+}
+
+.servicios-section div {
+    text-align: center; /* Centra el texto dentro de cada div */
+}
+
+.servicios-section img {
+    margin: 20px;
+    width: 350px;
+}
+
+
 
 /* Estilos para centrar el footer */
 footer {
