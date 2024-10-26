@@ -129,47 +129,44 @@ audio, video {
 }
 
 
-/* Estilos para centrar el footer */
-footer {
-    background-color:#afa3a38f; 
-    padding: 20px;
-    display: flex;
-    justify-content:center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra verticalmente */
+/* Estilos para el footer */
+
+.footer-container {
+    margin:0 auto;
+    display:flex;
+    background-color: #afa3a38f; 
+    align-items:start; /*esta propiedad alinea en el eje contrario del contenedor, es decir que si el contenedor es una fila = row , */
+    flex-wrap:wrap;
+    align-content: center;
+
 }
 
-.footer-section {
-    display: flex;
-    justify-content:space-around; /* Espacio entre los elementos del footer */
-    width: 100%;
-    max-width: 1200px; /* Limitar el ancho del contenido del footer */
+.footer-item {
+    margin: 5px 25px;
+    padding: 25px;
 }
 
+.item2 p {
+margin: 20px 0; 
+padding:5px
+} 
 
-.footer-section div {
-    margin: 5px ; /* Espaciado entre las secciones del footer */
-    text-align: center; /* Alinear el contenido de cada sección al centro */
+/* redes sociales */
+.item3 h3 {
+    margin-bottom: 20px ; 
+} 
+    
+.redes-soc a:hover {
+    color: #0077b5; 
 }
 
+.redes-soc a {
+    color: rgba(2, 2, 2, 0.555) 
 
-.footer-section div h3 {
-    margin: 20px; /* Espaciado entre las secciones del footer */
-    text-align: center; /* Alinear el contenido de cada sección al centro */
 }
-
-
-
-.redes-sociales a:hover {
-    color: #0077b5; /* Cambia el color al pasar el ratón por encima */
-}
-
-.redes-sociales a {
-    color: rgba(2, 2, 2, 0.555) /* Cambia el color al pasar el ratón por encima */
-}
-.redes-sociales i {
+.redes-soc i {
     font-size: 2rem;
     margin-right: 10px;
-    
 }
 
 #h6-red-soc {
@@ -178,7 +175,29 @@ footer {
 
 .navegacion a:hover {
     background-color: #726e6e;
+} 
+
+/* ubicacion */
+
+.item4 h3 {
+    margin-bottom: 20px ; 
 }
+
+
+.item5 h3 {
+    margin-bottom: 20px ; 
+}
+
+.item5 p a {
+    padding: 2px;
+    text-decoration: none;
+}
+
+.item5 a:hover {
+    background-color: #726e6e;
+}
+
+ 
 
 /* Formulario de Contacto */
 
