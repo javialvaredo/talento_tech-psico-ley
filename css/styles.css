@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,17 +7,35 @@
 
 
 body {
-    background-color: rgb(203, 203, 231);
+    background-color: rgb(222, 222, 233);
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 }
+
+
+.imagen-container {
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.imagen-container img {
+    border-radius: 3px;
+    height: 600px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+    
+}
+
+
+
 
 /* Estilos para el header */
 header {
     background-color: #afa3a38f; 
-    height: 150px;
+    height: 120px;
     padding: 10px;
     display: flex;
     justify-content: left; 
@@ -25,30 +45,35 @@ header {
 
 #logo {
     width: 120px;
-    float: left;
-  
+    margin: 10px;
+    padding: 5px;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center; 
+    margin-left: 150px;
     padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px; 
+    margin: 0 35px;
+    font-weight: 500;
 }
 
 nav ul li a {
     text-decoration: none;
+    border-radius: 5%;
+    margin: 5px;
+    padding:10px 20px;
     color: #333;
     font-size: 20px;
     
 }
 
 nav ul li a:hover {
-    background-color: #726e6e;
+    background-color: #aca5a5;
     
 }
 
@@ -61,6 +86,7 @@ main {
 
 h1, h2, p {
     margin-bottom: 20px;
+    
 }
 
 #titulo2 {
@@ -80,8 +106,8 @@ h1, h2, p {
 .presentacion p {
     flex: 1;
     padding: 30px; 
-    border: 1px solid #ccc;
     box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     max-width: 700px; 
     font-size:larger; 
     font-weight: 500;
@@ -89,6 +115,7 @@ h1, h2, p {
 
 .presentacion img {
     max-width: 700px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     width: 100%;
     height: auto;
     border: 1px solid #ccc;
@@ -104,6 +131,8 @@ img {
 #nosotros img {
     width: 1000px;
     margin: 20px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -115,12 +144,16 @@ img {
     align-items: center; 
     margin: 5px;
     padding: 5px;
-    gap: 20px; 
+    gap: 30px; 
     flex-wrap: wrap; 
 }
 
 .servicios-items {
     text-align:center; 
+    background-color: rgb(197, 197, 230);
+    border-radius: 3%;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .servicios-items p {
@@ -131,10 +164,23 @@ img {
 .servicios-items img {
     margin: 10px;
     width: 350px;
+    border-radius: 2%;
+    
 }
 
-#h2-capacitacion {
+.capacitacion {
     margin: 60px 20px 30px;
+}
+
+.capacitacion img {
+    width: 800px;
+    border-radius: 1%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.capacitacion p {
+    margin: 5px;
+    font-weight: 550;
 }
 
 
@@ -163,13 +209,13 @@ img {
 }
 
 .footer-item {
-    margin: 5px 25px;
+    margin: 25px 25px 5px;
     padding: 25px;
 }
 
 .footer-item.item2 p {
-margin: 20px 0; 
-padding:5px
+    margin: 20px 0; 
+    padding:5px
 } 
 
 /* redes sociales */
@@ -195,7 +241,7 @@ padding:5px
 }
 
 .navegacion a:hover {
-    background-color: #726e6e;
+    background-color:#aca5a5;
 } 
 
 /* ubicacion */
@@ -210,12 +256,14 @@ padding:5px
 }
 
 .footer-item.item5 p a {
-    padding: 2px;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 5px;
     text-decoration: none;
 }
 
 .footer-item.item5 a:hover {
-    background-color: #726e6e;
+    background-color:#aca5a5;
 }
 
 /* Boton Whatsup */
