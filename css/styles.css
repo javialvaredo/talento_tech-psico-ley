@@ -32,12 +32,12 @@ header {
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center; /* Centra los elementos del menú horizontalmente */
+    justify-content: center; 
     padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px; /* Espaciado entre los elementos de la lista */
+    margin: 0 15px; 
 }
 
 nav ul li a {
@@ -56,7 +56,7 @@ nav ul li a:hover {
 /* Otros estilos generales */
 main {
     padding: 20px;
-    text-align: center; /* Centrar todo el contenido del main */
+    text-align: center; 
 }
 
 h1, h2, p {
@@ -69,26 +69,26 @@ h1, h2, p {
 
 .presentacion {
     display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Alinea los elementos verticalmente */
-    gap: 30px; /* Aumenta el espacio entre el párrafo y la imagen */
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
     margin: 0 auto;
-    max-width: 1200px; /* Aumenta el ancho máximo del contenedor */
-    padding: 30px; /* Aumenta el relleno alrededor del contenedor */
+    max-width: 1200px; 
+    padding: 30px; 
 }
 
 .presentacion p {
     flex: 1;
-    padding: 30px; /* Aumenta el relleno dentro del párrafo */
+    padding: 30px; 
     border: 1px solid #ccc;
     box-sizing: border-box;
-    max-width: 700px; /* Aumenta el tamaño máximo del párrafo */
-    font-size:larger; /* Aumenta el tamaño del texto ligeramente */
+    max-width: 700px; 
+    font-size:larger; 
     font-weight: 500;
 }
 
 .presentacion img {
-    max-width: 700px; /* Aumenta el tamaño máximo de la imagen */
+    max-width: 700px; 
     width: 100%;
     height: auto;
     border: 1px solid #ccc;
@@ -99,37 +99,58 @@ img {
     height: auto;
 }
 
-audio, video {
-    margin: 10px 0;
-    max-width: 100%;
-}
+
 
 #nosotros img {
     width: 1000px;
     margin: 20px;
 }
 
+
+/* -----------------------NUESTROS SERVICIOS----------------------------*/
+
 .servicios-section {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center; 
+    align-items: center; 
     margin: 5px;
     padding: 5px;
-    gap: 20px; /* Añade espacio entre los elementos */
-    flex-wrap: wrap; /* Permite que los elementos se ajusten si la pantalla es más pequeña */
+    gap: 20px; 
+    flex-wrap: wrap; 
 }
 
-.servicios-section div {
-    text-align: center; /* Centra el texto dentro de cada div */
+.servicios-items {
+    text-align:center; 
 }
 
-.servicios-section img {
-    margin: 20px;
+.servicios-items p {
+    margin: 5px;
+    font-weight: 550;
+}
+
+.servicios-items img {
+    margin: 10px;
     width: 350px;
 }
 
+#h2-capacitacion {
+    margin: 60px 20px 30px;
+}
 
-/* Estilos para el footer */
+
+.multimedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 50px 10px 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+
+/* ------------------- Estilos para el footer--------------------- */
 
 .footer-container {
     margin:0 auto;
@@ -146,13 +167,13 @@ audio, video {
     padding: 25px;
 }
 
-.item2 p {
+.footer-item.item2 p {
 margin: 20px 0; 
 padding:5px
 } 
 
 /* redes sociales */
-.item3 h3 {
+.footer-item.item3 h3 {
     margin-bottom: 20px ; 
 } 
     
@@ -179,37 +200,25 @@ padding:5px
 
 /* ubicacion */
 
-.item4 h3 {
+.footer-item.item4 h3 {
     margin-bottom: 20px ; 
 }
 
 
-.item5 h3 {
+.footer-item.item5 h3 {
     margin-bottom: 20px ; 
 }
 
-.item5 p a {
+.footer-item.item5 p a {
     padding: 2px;
     text-decoration: none;
 }
 
-.item5 a:hover {
+.footer-item.item5 a:hover {
     background-color: #726e6e;
 }
 
- 
-
-/* Formulario de Contacto */
-
-.formulario-contacto ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.formulario-contacto ul li {
-    margin-bottom: 10px;
-    padding: 5px;
-}
+/* Boton Whatsup */
 
 .whatsapp-button {
     display: inline-flex;
@@ -231,3 +240,44 @@ padding:5px
   .whatsapp-button i {
     margin-right: 10px;
   }
+
+/* -----------------Formulario de Contacto------------------ */
+
+.formulario-contacto {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color:  #afa3a38f;
+}
+.formulario-contacto label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.formulario-contacto .buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.formulario-contacto button {
+    padding: 10px 30px;
+    margin:20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formulario-contacto button:hover {
+    background-color: #45a049;
+}
+
