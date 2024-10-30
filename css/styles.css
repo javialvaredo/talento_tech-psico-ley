@@ -31,7 +31,6 @@ body {
 
 
 
-
 /* Estilos para el header */
 header {
     background-color: #afa3a38f; 
@@ -43,11 +42,15 @@ header {
     width: 100%;
 }
 
-#logo {
+
+.logo {
     width: 120px;
+    height: auto; 
     margin: 10px;
     padding: 5px;
+    max-width: none; 
 }
+
 
 nav ul {
     list-style-type: none;
