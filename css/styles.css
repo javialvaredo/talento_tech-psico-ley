@@ -37,35 +37,41 @@ header {
     height: 120px;
     padding: 10px;
     display: flex;
-    justify-content: left; 
+    justify-content:left; 
     align-items: center; 
     width: 100%;
 }
 
 
 .logo {
+    display: flex;
     width: 120px;
     height: auto; 
     margin: 10px;
-    padding: 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    padding: 0px;
     max-width: none; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
 }
 
 
-nav ul {
+.header-nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center; 
-    margin-left: 150px;
-    padding: 0;
+    justify-content: space-between; 
+    margin: 5px;
+    padding: 5px;
 }
 
-nav ul li {
-    margin: 0 35px;
+.header-nav ul li {
+    display: inline-block;
+    margin: 25px 25px;
     font-weight: 500;
 }
 
-nav ul li a {
+.header-nav ul li a {
     text-decoration: none;
     border-radius: 5%;
     margin: 5px;
@@ -73,12 +79,14 @@ nav ul li a {
     color: #333;
     font-size: 20px;
     
+    
 }
 
-nav ul li a:hover {
+.header-nav ul li a:hover {
     background-color: #aca5a5;
     
 }
+
 
 
 /* Otros estilos generales */
