@@ -35,11 +35,11 @@ body {
 header {
     background-color: #afa3a38f; 
     height: 120px;
-    padding: 10px;
+    padding: 5px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    justify-content:baseline;
+    align-items:center;
+    /* width: 100%; */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -49,7 +49,8 @@ header {
 }
 
 .logo-titulo h2 {
-    margin: 50px 50px ;
+    font-weight: 500;
+    margin-left: 5px ;
     padding: 5px;
 }
 
@@ -63,26 +64,37 @@ header {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    margin-left: 200px;
+    padding: 15px;
+}
+
 .header-nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    margin: 20px 150px;
+    margin: 5px;
     padding: 5px;
 }
 
+
 .header-nav ul li {
-    margin: 25px 25px;
-    font-weight: 500;
+    font-weight: 400;
+    margin: 15px;
+    padding: 15px;
+    
 }
 
 .header-nav ul li a {
     text-decoration: none;
     border-radius: 5%;
     margin: 5px;
-    padding: 10px 20px;
-    color: #333;
-    font-size: 20px;
+    padding: 5px;
+    color:black;
+    font-size: 18px;
+    
 }
 
 .header-nav ul li a:hover {
@@ -94,7 +106,7 @@ header {
     header {
         flex-direction: column;
         height: auto;
-        padding: 20px;
+        padding: 10px;
     }
 
     .logo-titulo {
@@ -189,22 +201,22 @@ img {
         padding: 20px;
     }
 
-    .imagen-container {
+   /* .imagen-container {
         display: none; /* Ocultar la primera imagen en pantallas pequeñas */
-    }
+    } */
 
     #principal {
-        background-image: url('./assets/img/psychology-2706899_1280.jpg'); /* Imagen de fondo */
+        background-image: url('./assets/img/psychology-2706899_1280.jpg'); 
         background-size: cover;
         background-position: center;
-        padding: 50px 20px; /* Añadir padding para un mejor aspecto */
+        padding: 50px 20px; 
     }
 
     .presentacion p {
         max-width: 100%;
         box-shadow: none;
     }
-}
+
 
 
 /*---------------------NOSOTROS------------------------*/
@@ -241,13 +253,37 @@ img {
     background-color: rgb(197, 197, 230);
     border-radius: 3%;
     padding: 20px;
+    padding-bottom: 50px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+
 .servicios-items p {
-    margin: 5px;
+    margin: 10px;
+    padding: 5px;
     font-weight: 550;
 }
+
+.servicios-items div {
+    margin: 10px;
+    padding: 25px;
+        
+}
+.servicios-items div a {
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        
+}
+
+.servicios-items a:hover {
+    background-color: rgb(184, 184, 231);
+        
+}
+
 
 .servicios-items img {
     margin: 10px;
@@ -256,9 +292,29 @@ img {
     
 }
 
+/*--Capacitacion ------*/
+
+
 .capacitacion {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     margin: 60px 20px 30px;
+    padding: 5px;
+    gap: 30px; 
+    flex-wrap: wrap; 
 }
+
+.capacitacion-item {
+    text-align:center; 
+    background-color: rgb(197, 197, 230);
+    border-radius: 3%;
+    padding: 20px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
 
 .capacitacion img {
     width: 800px;
@@ -267,10 +323,25 @@ img {
 }
 
 .capacitacion p {
-    margin: 5px;
+    margin: 15px;
+    padding: 5px;
     font-weight: 550;
 }
 
+.capacitacion-item div {
+    margin: 10px;
+    padding: 25px;
+        
+}
+.capacitacion-item div a {
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        
+}
 
 .multimedia {
     display: flex;
