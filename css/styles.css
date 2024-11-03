@@ -135,7 +135,7 @@ header {
 }
 
 /* Media Queries para pantallas muy pequeñas (teléfonos) */
-@media (max-width: 480px) {
+@media (max-width: 412px) {
     .header-nav ul li a {
         font-size: 16px;
         padding: 6px 12px;
