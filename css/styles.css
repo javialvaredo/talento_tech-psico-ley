@@ -21,8 +21,9 @@ body {
     
 }
 
-.imagen-container img {
-    border-radius: 3px;
+.imagen-item {
+    border-radius: 5px;
+    margin: 60px;
     height: 600px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
@@ -184,6 +185,7 @@ h1, h2 {
 .presentacion img {
     max-width: 700px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
     width: 100%;
     height: auto;
     border: 1px solid #ccc;
