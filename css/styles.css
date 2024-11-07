@@ -26,10 +26,8 @@ body {
     margin: 60px;
     height: 600px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
     
 }
-
 
 
 /* Estilos generales para el header */
@@ -37,66 +35,70 @@ header {
     background-color: #afa3a38f; 
     height: 120px;
     padding: 5px;
+    padding-bottom: 5px;
     display: flex;
-    justify-content:baseline;
-    align-items:center;
-    /* width: 100%; */
+    width: 100%; 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.logo-titulo {
+
+.header-nav {
+    list-style-type: none;
     display: flex;
-    align-items: center;
+    justify-content:center;
+    margin-left: 15px;
+    padding: 15px;
 }
 
-.logo-titulo h2 {
-    font-weight: 500;
-    margin-left: 5px ;
+.header-nav ul {
+    border: solid black 1px;
+    list-style-type: none;
+    display: flex;
+    margin: 5px;
     padding: 5px;
 }
 
+
+.item-nav.item2 a {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.header-nav li {
+    border: solid black 1px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    border-radius: 5%;
+    font-weight: 400;
+    margin: 15px;
+    padding: 15px;
+    color:black;
+    font-size: 18px;
+}
+
 .logo {
-    width: 120px;
+    width: 100px;
     height: auto;
-    margin-left: 25px;
+    margin-left: 15px;
     border-radius: 50%;
     background-color: #ccc;
     max-width: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.header-nav {
-    list-style-type: none;
-    display: flex;
-    justify-content:center;
-    margin-left: 200px;
-    padding: 15px;
-}
 
-.header-nav ul {
-    list-style-type: none;
-    display: flex;
-    margin: 5px;
+.logo-titulo h2 {
+    font-weight: 500;
+    margin-left: 5px ;
     padding: 5px;
-}
+} 
 
 
-.header-nav ul li {
-    font-weight: 400;
-    margin: 15px;
-    padding: 15px;
-    
-}
-
-.header-nav ul li a {
-    text-decoration: none;
-    border-radius: 5%;
-    margin: 5px;
-    padding: 5px;
-    color:black;
-    font-size: 18px;
-    
-}
 
 .header-nav ul li a:hover {
     background-color: #aca5a5;
@@ -155,9 +157,6 @@ main {
     text-align: center;
 }
 
-h1, h2 {
-  margin: 50px 0 20px;
-}
 
 #titulo2 {
     margin: 30px;
