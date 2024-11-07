@@ -31,7 +31,7 @@ body {
 
 
 /* Estilos generales para el header */
-header {
+.header {
     background-color: #afa3a38f; 
     height: 120px;
     padding: 5px;
@@ -51,22 +51,21 @@ header {
 }
 
 .header-nav ul {
-    border: solid black 1px;
     list-style-type: none;
     display: flex;
+    align-items: center;
     margin: 5px;
     padding: 5px;
 }
 
 
-.item-nav.item2 a {
+.item-nav.item2 {
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 
 .header-nav li {
-    border: solid black 1px;
     margin: 10px;
     padding: 10px;
 }
@@ -75,8 +74,8 @@ header {
     text-decoration: none;
     border-radius: 5%;
     font-weight: 400;
-    margin: 15px;
-    padding: 15px;
+    margin: 05px;
+    padding: 0px;
     color:black;
     font-size: 18px;
 }
@@ -84,7 +83,7 @@ header {
 .logo {
     width: 100px;
     height: auto;
-    margin-left: 15px;
+    margin: 15px;
     border-radius: 50%;
     background-color: #ccc;
     max-width: none;
@@ -92,21 +91,19 @@ header {
 }
 
 
-.logo-titulo h2 {
-    font-weight: 500;
-    margin-left: 5px ;
-    padding: 5px;
-} 
-
-
 
 .header-nav ul li a:hover {
     background-color: #aca5a5;
 }
 
+.header-nav .item1 a:hover {
+    background-color:inherit;
+}
+
+
 /* Media Queries para pantallas pequeñas */
 @media (max-width: 768px) {
-    header {
+    .header {
         flex-direction: column;
         height: auto;
         padding: 10px;
