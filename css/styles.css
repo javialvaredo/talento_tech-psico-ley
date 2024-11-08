@@ -93,27 +93,34 @@ body {
     .header {
         flex-direction: column;
         height: auto;
-        padding: 10px;
+        padding: 5px;
     }
 
+    .logo {
+        width: 100px;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    
     .logo-titulo {
         justify-content: center;
     }
 
+
+
     .header-nav ul {
         flex-direction: column;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .header-nav ul li {
-        margin: 10px 0;
+        margin: 5px 0;
     }
-
-    .logo {
-        width: 80px;
-    }
-
+    
     .header-nav ul li a {
         font-size: 18px;
         /*padding: 8px 16px;*/
@@ -127,10 +134,8 @@ body {
         padding: 6px 12px;
         
     }
-
-    .logo {
-        width: 60px;
-    }
+    
+   
 }
 
 
@@ -469,7 +474,7 @@ main {
     padding: 15px; 
 }
 
-/* Resto de los estilos */
+
 .footer-item.item2 p {
     margin: 10px 0;
     padding: 5px;
@@ -548,6 +553,31 @@ main {
     
   }
 
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-item {
+        margin: 10px 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .redes-soc i {
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+
+    .whatsapp-button {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+}
 
 /*------------------------NOSOTROS------------------*/
 
