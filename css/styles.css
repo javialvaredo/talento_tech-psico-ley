@@ -253,29 +253,38 @@ main {
       }
     
       .imagen-presentacion {
-        order: 2; /* La imagen aparece después del párrafo en pantallas pequeñas */
-        width: 100%; /* Ancho completo en pantallas pequeñas */
+        order: 2; 
+        width: 100%; 
       }
 
 
 }
 @media (max-width: 768px) {
+
+    #titulo_id {
+        font-size: 3em; 
+    }
+
+    .imagen-container img {
+        width: 100%;
+        height: auto;
+    }
     .presentacion {
         flex-direction: column;
         padding: 20px;
     }
     
       .texto-presentacion {
-        order: 1; /* El párrafo aparece primero en pantallas pequeñas */
+        order: 1; 
       }
     
       .imagen-presentacion {
-        order: 2; /* La imagen aparece después del párrafo en pantallas pequeñas */
-        width: 100%; /* Ancho completo en pantallas pequeñas */
+        order: 2; 
+        width: 100%; 
       }
-
-
+      
 }
+
 
     #principal {
         background-image: url('./assets/img/psychology-2706899_1280.jpg'); 
@@ -284,11 +293,19 @@ main {
         padding: 50px 20px; 
     }
 
+
     .presentacion p {
         max-width: 100%;
     }
+    
 
+    @media (max-width: 410px) {
+        .imagen-container img {
+            width: 100%;
+            height: auto;
+        }
 
+    }
 
 
 /*---------------------NOSOTROS------------------------*/
