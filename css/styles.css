@@ -15,19 +15,6 @@ body {
 }
 
 
-.imagen-container {
-    padding: 10px;
-    margin-bottom: 50px;
-    
-}
-
-.imagen-item {
-    border-radius: 5px;
-    margin: 60px;
-    height: 600px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    
-}
 
 
 /* Estilos generales para el header */
@@ -74,8 +61,8 @@ body {
     text-decoration: none;
     border-radius: 5%;
     font-weight: 400;
-    margin: 05px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
     color:black;
     font-size: 18px;
 }
@@ -148,13 +135,45 @@ body {
 
 
 
-/* Otros estilos generales */
+/*-----------main -------------*/
 main {
     padding: 20px;
     text-align: center;
       
 }
 
+
+.section1 {
+    height: 80vh;
+    background-image: url("../assets/img/psychology-fondo.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+
+.imagen-container {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.imagen-item {
+    border-radius: 5px;
+    margin: 30px;
+    height: 600px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+#titulo_id {
+    font-size: 4em;
+    color: #00080c;
+    text-shadow: 4px 4px 8px rgb(196, 215, 216);
+}
 
 #titulo2 {
     margin: 30px;
@@ -185,21 +204,28 @@ main {
     margin: 0 auto;
     max-width: 1200px;
     padding: 30px;
+    
+    
 }
 
-.presentacion p {
-    flex: 1;
+.presentacion div {
     padding: 30px;
+    margin: 20px;
     box-sizing: border-box;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 50;
+    height: auto;
     max-width: 700px;
     font-size: larger;
     font-weight: 500;
+    border: solid rgba(29, 28, 28, 0.212) 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+    
+    
 }
 
 .presentacion img {
     max-width: 700px;
+    margin:20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     width: 100%;
@@ -208,14 +234,43 @@ main {
 }
 
 
-/* Media query para pantallas pequeñas */
+
+/* Media query para pantallas medianas y pequeñas */
+
+@media (max-width: 1000px) {
+    .presentacion {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+      .texto-presentacion {
+        order: 1; /* El párrafo aparece primero en pantallas pequeñas */
+      }
+    
+      .imagen-presentacion {
+        order: 2; /* La imagen aparece después del párrafo en pantallas pequeñas */
+        width: 100%; /* Ancho completo en pantallas pequeñas */
+      }
+
+
+}
 @media (max-width: 768px) {
     .presentacion {
         flex-direction: column;
         padding: 20px;
     }
-  
-} 
+    
+      .texto-presentacion {
+        order: 1; /* El párrafo aparece primero en pantallas pequeñas */
+      }
+    
+      .imagen-presentacion {
+        order: 2; /* La imagen aparece después del párrafo en pantallas pequeñas */
+        width: 100%; /* Ancho completo en pantallas pequeñas */
+      }
+
+
+}
 
     #principal {
         background-image: url('./assets/img/psychology-2706899_1280.jpg'); 
@@ -230,24 +285,31 @@ main {
 
 
 
+
 /*---------------------NOSOTROS------------------------*/
 
 .titulo-nosotros  {
     margin: 20px;
     padding:20px
-
-
 }
 
 #nosotros img {
-    width: 1000px;
     margin: 20px;
+    max-width: 100%;
+    height: auto;
     border-radius: 2px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 
 /* -----------------------NUESTROS SERVICIOS----------------------------*/
+
+#titulo_id2 {
+    font-size: 3em;
+    color: #00080c;
+    text-shadow: 4px 4px 8px rgb(107, 143, 145);
+}
+
 
 .servicios-section {
     display: flex;
@@ -303,6 +365,7 @@ main {
     
 }
 
+
 /*--Capacitacion ------*/
 
 
@@ -328,6 +391,8 @@ main {
 
 
 .capacitacion img {
+    max-width: 100%;
+    height: auto;
     width: 800px;
     border-radius: 1%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -340,11 +405,19 @@ main {
 }
 
 .capacitacion-item div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 10px;
     padding: 25px;
-        
+}
+
+.capacitacion-item h2 {
+    margin: 10px;
+    padding: 25px;
 }
 .capacitacion-item div a {
+   
     margin: 10px;
     padding: 15px;
     text-decoration: none;
@@ -354,12 +427,17 @@ main {
         
 }
 
+.capacitacion-item img {
+    max-width: 100%;
+    height: auto;
+}
+
 .multimedia {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
-    margin: 50px 10px 50px;
+    margin: 10px 50px 10px;
     gap: 30px;
     flex-wrap: wrap;
     max-width: 100%;
@@ -367,20 +445,25 @@ main {
 
 .multimedia-items.item1 {
     justify-content: center;
-    margin: 20px;
-    padding: 20px;
+    border-radius: 5px;
     text-align: left;
-   
+    padding: 25px;
+    margin: 25px;
+    box-sizing: border-box;
+    width: auto;
+    font-size: larger;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)    
 }
 
 .multimedia-items.item2 {
     justify-content: center;
+    height: auto;    
     margin: 20px;
     padding: 20px;
     text-align: left;
    
 }
-
 
 
 
