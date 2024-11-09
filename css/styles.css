@@ -148,10 +148,7 @@ body {
     .header-nav ul li a {
         font-size: 16px;
         padding: 6px 12px;
-        
     }
-    
-   
 }
 
 
@@ -176,14 +173,14 @@ main {
 .imagen-container {
     max-width: 100%;
     height: auto;
-    padding: 10px;
-    margin-bottom: 50px;
+    padding: 5px;
+    margin: 5px;
     
 }
 
 .imagen-item {
     border-radius: 5px;
-    margin: 30px;
+    margin: 10px;
     height: 600px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     
@@ -198,22 +195,6 @@ main {
 
 #titulo2 {
     margin: 30px;
-}
-
-
-.imagen-container {
-    padding: 10px;
-    margin-bottom: 50px;
-    
-}
-
-.imagen-item {
-    border-radius: 5px;
-    margin: 60px;
-    height: 600px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
-    
 }
 
 
