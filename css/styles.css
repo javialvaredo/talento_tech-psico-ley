@@ -297,14 +297,9 @@ main {
 .presentacion p {
         max-width: 100%;
  }
-    
 
- 
 
 /*---------------------pagina Nosotros------------------------*/
-
-
-
 
 .nosotros h2 {
     margin: 15px;
@@ -320,7 +315,6 @@ main {
 
 
 /* -----------------------NUESTROS SERVICIOS----------------------------*/
-
 
 .servicios-section {
     display: grid;
@@ -368,18 +362,17 @@ main {
 
 .servicios-items a:hover {
     background-color: rgb(184, 184, 231);
-        
 }
-
 
 .servicios-items img {
     margin: 10px;
     width: 100%;
     max-width: 300px;
     border-radius: 2%;
-    
 }
 
+
+/*************media queries seccion Servicios  con grid ------------ */
 @media (max-width: 1500px) {
     .servicios-section {
       grid-template-columns: repeat(3, 1fr);
@@ -426,7 +419,6 @@ main {
         font-weight: 400;
     }
 
-
   }
   
   @media (max-width: 420px) {
@@ -442,7 +434,8 @@ main {
 
   }
 
-/*--Capacitacion ------*/
+
+/*--Capacitacion flex------*/
 
 
 .capacitacion {
@@ -544,7 +537,6 @@ main {
 }
 
 
-
 /* ------------------- Estilos para el footer--------------------- */
 
 .footer-container {
@@ -643,7 +635,7 @@ main {
     
   }
 
-/* Media query para footere */
+/* --------Media query para footer-------- */
 
 @media (max-width: 985px) {
     .footer-container {
