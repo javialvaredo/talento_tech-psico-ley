@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 
 * {
     padding: 0;
@@ -15,9 +17,7 @@ body {
 }
 
 
-
-
-/* Estilos generales para el header */
+/* Estilos para el header */
 .header {
     background-color: #afa3a38f; 
     height: 120px;
@@ -45,12 +45,10 @@ body {
     padding: 5px;
 }
 
-
 .item-nav.item2 {
     font-size: 1.5rem;
     font-weight: 600;
 }
-
 
 .header-nav li {
     margin: 10px;
@@ -77,8 +75,6 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-
 .header-nav ul li a:hover {
     background-color: #aca5a5;
 }
@@ -88,7 +84,7 @@ body {
 }
 
 
-/* Media Queries para pantallas medianas y celulares */
+/* Media Queries para Header pantallas medianas y celulares */
 
 @media (max-width: 985px) {
     .header {
@@ -152,14 +148,11 @@ body {
 }
 
 
-
-/*-----------main -------------*/
+/*--------Estilos para el Main -------------*/
 main {
-    padding: 20px;
+    padding: 3px;
     text-align: center;
-      
 }
-
 
 .section1 {
     height: 80vh;
@@ -187,11 +180,14 @@ main {
 }
 
 
-#titulo_id {
+.titulo_pagina.principal{
     font-size: 4em;
     color: #00080c;
     text-shadow: 4px 4px 8px rgb(196, 215, 216);
 }
+
+
+
 
 #titulo2 {
     margin: 30px;
@@ -206,8 +202,6 @@ main {
     margin: 0 auto;
     max-width: 1200px;
     padding: 30px;
-    
-    
 }
 
 .presentacion div {
@@ -235,8 +229,6 @@ main {
     border: 1px solid #ccc;
 }
 
-
-
 /* Media query para pantallas medianas y pequeñas */
 
 @media (max-width: 1000px) {
@@ -258,10 +250,9 @@ main {
 }
 @media (max-width: 768px) {
 
-    #titulo_id {
+    .titulo_pagina {
         font-size: 3em; 
     }
-
     .imagen-container img {
         width: 100%;
         height: auto;
@@ -270,49 +261,52 @@ main {
         flex-direction: column;
         padding: 20px;
     }
-    
-      .texto-presentacion {
+    .texto-presentacion {
         order: 1; 
-      }
-    
-      .imagen-presentacion {
+    }
+    .imagen-presentacion {
         order: 2; 
         width: 100%; 
-      }
-      
+    }
 }
 
+@media (max-width: 410px) {
+    .imagen-container img {
+        width: 100%;
+        height: auto;
+    }
+}
 
-    #principal {
+#principal {
         background-image: url('./assets/img/psychology-2706899_1280.jpg'); 
         background-size: cover;
         background-position: center;
         padding: 50px 20px; 
-    }
-
-
-    .presentacion p {
-        max-width: 100%;
-    }
-    
-
-    @media (max-width: 410px) {
-        .imagen-container img {
-            width: 100%;
-            height: auto;
-        }
-
-    }
-
-
-/*---------------------NOSOTROS------------------------*/
-
-.titulo-nosotros  {
-    margin: 20px;
-    padding:20px
 }
 
-#nosotros img {
+.presentacion p {
+        max-width: 100%;
+ }
+    
+
+ 
+
+/*---------------------pagina Nosotros------------------------*/
+.titulo_pagina {
+    font-size: 4em;
+    color: #00080c;
+    margin: 10px;
+    padding:20px;
+    text-shadow: 4px 4px 8px rgb(107, 143, 145);
+}
+
+
+
+.nosotros h2 {
+    margin: 15px;
+}
+
+.imagen_nosotros img {
     margin: 20px;
     max-width: 100%;
     height: auto;
@@ -322,12 +316,6 @@ main {
 
 
 /* -----------------------NUESTROS SERVICIOS----------------------------*/
-
-#titulo_id2 {
-    font-size: 3em;
-    color: #00080c;
-    text-shadow: 4px 4px 8px rgb(107, 143, 145);
-}
 
 
 .servicios-section {
@@ -407,8 +395,6 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-
 .capacitacion img {
     max-width: 100%;
     height: auto;
@@ -463,16 +449,20 @@ main {
 }
 
 .multimedia-items.item1 {
-    justify-content: center;
-    border-radius: 5px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size:1.5rem;
+    font-weight: 400;
     text-align: left;
+    border-radius: 5px;
     padding: 25px;
     margin: 25px;
     box-sizing: border-box;
-    width: auto;
-    font-size: larger;
-    font-weight: 500;
+    justify-content: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)    
+}
+.multimedia-items.item1 p {
+    margin: 10px;
+        
 }
 
 .multimedia-items.item2 {
@@ -629,11 +619,9 @@ main {
 }
 
 .google iframe {
-    /*padding: 20px;*/
     width: 600px;
     height: 450px;
     border: 0;
-    
 }
 
 
@@ -676,4 +664,11 @@ main {
 .formulario-contacto button:hover {
     background-color: #45a049;
 }
+
+/*----------Carrito de reservas ---------------------*/
+
+.titulo_pagina.carrito {
+    margin: 35px;
+    padding: 30px;
+} 
 
