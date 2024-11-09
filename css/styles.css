@@ -430,9 +430,13 @@ main {
   }
   
   @media (max-width: 420px) {
+    .servicios-items {
+        font-size:0.8rem ;
+        font-weight: 400;
+    }
 
     .servicios-items div a{
-        font-size:1rem ;
+        font-size:0.8rem ;
         font-weight:400;
     }
 
