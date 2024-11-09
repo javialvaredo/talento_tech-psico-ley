@@ -179,6 +179,13 @@ main {
     
 }
 
+.titulo_pagina {
+    font-size: 4em;
+    color: #00080c;
+    margin: 10px;
+    padding:20px;
+    text-shadow: 4px 4px 8px rgb(107, 143, 145);
+}
 
 .titulo_pagina.principal{
     font-size: 4em;
@@ -251,7 +258,10 @@ main {
 @media (max-width: 768px) {
 
     .titulo_pagina {
-        font-size: 3em; 
+        font-size: 2em; 
+    }
+    .titulo_pagina.principal {
+        font-size: 2em; 
     }
     .imagen-container img {
         width: 100%;
@@ -292,13 +302,7 @@ main {
  
 
 /*---------------------pagina Nosotros------------------------*/
-.titulo_pagina {
-    font-size: 4em;
-    color: #00080c;
-    margin: 10px;
-    padding:20px;
-    text-shadow: 4px 4px 8px rgb(107, 143, 145);
-}
+
 
 
 
