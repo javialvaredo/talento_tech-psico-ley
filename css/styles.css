@@ -301,6 +301,13 @@ main {
 
 /*---------------------pagina Nosotros------------------------*/
 
+.nosotros_container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .nosotros h2 {
     margin: 15px;
 }
@@ -673,7 +680,11 @@ main {
     }
 }
 
-/*------------------------NOSOTROS------------------*/
+
+
+
+
+/* -----------------Formulario de Contacto------------------ */
 
 .google h1 {
     padding: 20px;
@@ -685,8 +696,6 @@ main {
     border: 0;
 }
 
-
-/* -----------------Formulario de Contacto------------------ */
 
 .formulario-contacto {
     max-width: 500px;
