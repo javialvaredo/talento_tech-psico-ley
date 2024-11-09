@@ -135,7 +135,7 @@ body {
     
     .header-nav ul li a {
         font-size: 18px;
-        /*padding: 8px 16px;*/
+       
     }
 }
 
@@ -385,6 +385,12 @@ main {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2,1fr);
     }
+    .servicios-items {
+        margin: 5px;
+        padding: 5px;
+        font-size:1rem ;
+        font-weight: 550;
+    }
   }
 
 
@@ -393,16 +399,44 @@ main {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2,1fr);
     }
+    .servicios-items {
+        margin: 5px;
+        padding: 5px;
+        font-size:1rem ;
+        font-weight: 400;
+    }
   }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .servicios-section {
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(3,1fr);
       
     }
+    .servicios-items p {
+        margin: 5px;
+        padding: 5px;
+        font-size:1rem ;
+        font-weight: 400;
+    }
+    .servicios-items {
+        margin: 5px;
+        padding: 5px;
+        font-size:1rem ;
+        font-weight: 550;
+    }
+
+
   }
   
+  @media (max-width: 420px) {
+
+    .servicios-items div a{
+        font-size:1rem ;
+        font-weight:400;
+    }
+
+  }
 
 /*--Capacitacion ------*/
 
