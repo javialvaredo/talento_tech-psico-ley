@@ -189,10 +189,11 @@ main {
     text-shadow: 4px 4px 8px rgb(196, 215, 216);
 }
 
-
-
-#titulo2 {
-    margin: 30px;
+#principal {
+    background-image: url('./assets/img/psychology-2706899_1280.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px; 
 }
 
 
@@ -215,6 +216,7 @@ main {
     max-width: 700px;
     font-size: larger;
     font-weight: 500;
+    border-radius: 5px;
     border: solid rgba(29, 28, 28, 0.212) 1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
     
@@ -229,6 +231,15 @@ main {
     height: auto;
     border: 1px solid #ccc;
 }
+
+
+
+
+.presentacion p {
+    max-width: 100%;
+    
+}
+
 
 /* Media query para pantallas medianas y pequeñas */
 
@@ -280,17 +291,6 @@ main {
         height: auto;
     }
 }
-
-#principal {
-        background-image: url('./assets/img/psychology-2706899_1280.jpg'); 
-        background-size: cover;
-        background-position: center;
-        padding: 50px 20px; 
-}
-
-.presentacion p {
-        max-width: 100%;
- }
 
 
 /*---------------------pagina Nosotros------------------------*/
