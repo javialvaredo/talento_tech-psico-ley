@@ -364,7 +364,7 @@ main {
 }
 .servicios-items div a {
     margin: 10px;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     font-weight: 550;
     border-radius: 5%;
@@ -385,10 +385,10 @@ main {
 
 
 /*************media queries seccion Servicios  con grid ------------ */
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
     .servicios-section {
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2,1fr);
+      grid-template-rows: repeat(2, 1fr);
     }
     .servicios-items {
         margin: 5px;
@@ -402,7 +402,7 @@ main {
 @media (max-width: 1300px) {
     .servicios-section {
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2,1fr);
+      grid-template-rows: repeat(2, 1fr);
     }
     .servicios-items {
         margin: 5px;
