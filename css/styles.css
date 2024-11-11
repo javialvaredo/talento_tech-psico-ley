@@ -379,7 +379,7 @@ main {
 .servicios-items img {
     margin: 10px;
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
     border-radius: 2%;
 }
 
@@ -426,8 +426,8 @@ main {
     .servicios-items p {
         margin: 5px;
         padding: 5px;
-        font-size:0.8rem ;
-        font-weight: 400;
+        font-size:1rem ;
+        font-weight: 550;
     }
     .servicios-items img {
         max-width: 90%;
@@ -442,7 +442,6 @@ main {
     }
 
     .servicios-items div a{
-        font-size:0.8rem ;
         font-weight:400;
     }
 
