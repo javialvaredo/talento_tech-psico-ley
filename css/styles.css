@@ -385,7 +385,7 @@ main {
 
 
 /*************media queries seccion Servicios  con grid ------------ */
-@media (max-width: 1600px) {
+@media (max-width: 1680px) {
     .servicios-section {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr);
