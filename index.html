@@ -9,69 +9,95 @@
     <title>Psicologia y Ley</title>
     <link rel="shortcut icon" href="./assets/img/psicologia_ico.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <script src="https://kit.fontawesome.com/949042685a.js" crossorigin="anonymous"></script>
+   
 
 </head>
 
 <body>
     <header class="header">
-        <nav class="header-nav">
-                <ul>
-                    <li class="item-nav item1"> <a href="./index.html"> <img class="logo" src="./assets/img/logo-psico.jpg "
-                        alt="logo psicologia"></a> </li>
-                    <li class="item-nav item2">Psicología y Ley</li>
-                    <li class="item-nav item3"><a href="./index.html">Inicio</a></li>
-                    <li class="item-nav item4"><a href="./pages/nosotros.html">Nosotros</a></li>
-                    <li class="item-nav item5"><a href="./pages/nuestros_servicios.html">Servicios</a></li>
-                    <li class="item-nav item6"><a href="./pages/contacto.html">Contacto</a></li>
-                    <li class="item-nav item7"><a href="./pages/carrito.html">Solicitar Entrevista</a></li>
+       
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="./assets/img/logo-psico.jpg" alt="Logo" width="120" height="120" class="d-inline-block align-middle logo">
+                Psicología y Ley
+              </a>
+
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                                    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/nuestros_servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/carrito.html">Solicitar Entrevista</a>
+                  </li>
+               
+
                 </ul>
-        </nav>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
     </header>
 
-    <main class="main">
+    <main class="main container text-center">
+      <div class="titulo-inicio">
+            <h1 class="titulo_pagina principal animate__animated  animate__pulse">Atencion Psicológica y Asesoramiento Legal </h1>
+      </div>
+          
+      <div class="container text-center">
 
-        <section class="section1">
-            <div>
-                <h1 class="titulo_pagina principal animate__animated  animate__pulse">Atencion Psicológica y Asesoramiento Legal </h1>
-            </div>
-        </section>
+        <div class="row">
+          <div class="col">
+            <p class="texto-presentacion">
+              Nuestra institución está formada por un equipo de Profesionales especializados en salud mental.
+              ofrecemos tratamientos psicológicos individuales y de la dinámica familiar conjutamente con asesoramiento jurídico.
+              Desarrollamos nuestra actividad desde 1995.
+              Realizamos además evaluaciones psicológicas para el área jurídica, educacional y laboral.
+              Contamos para ello con peritos de parte y consultores técnicos, para la actuación en los diferentes fueros de la Ciudad de Buenos Aires.
+              Brindamos capacitaciones y supervisiones para los profesionales.
+            </p>
+          </div>
+          <div class="col">
+            <img class="imagen-presentacion" src="./assets/img/right-4703934_1280.jpg" alt="Imagen de sesión de psicología">
+          </div>
+        </div>
 
-        <section>
-            <div class="presentacion">
-                <div>
-                    <p class="texto-presentacion">
-                        Nuestra institución está formada por un equipo de Profesionales especializados en salud mental.
-                        ofrecemos tratamientos psicológicos individuales y de la dinámica familiar conjutamente con asesoramiento jurídico.
-                        Desarrollamos nuestra actividad desde 1995.
-                        Realizamos además evaluaciones psicológicas para el área jurídica, educacional y laboral.
-                        Contamos para ello con peritos de parte y consultores técnicos, para la actuación en los diferentes fueros de la Ciudad de Buenos Aires.
-                        Brindamos capacitaciones y supervisiones para los profesionales.
-                    </p>
-                </div>
-                <img class="imagen-presentacion" src="./assets/img/right-4703934_1280.jpg" alt="Imagen de sesión de psicología">
-            </div>
-           
-        </section>
-
-        <section>
-            <div id="principal">
-                <div class="articulos">
-                    <div class="secciones">
-                       
-                        <div class="imagen-container">
-                            <img class="imagen-item item1" src="./assets/img/entrevista1.png" alt="imagen de entrevista">
-                            <img class="imagen-item item2"  src="./assets/img/ley.jpg" alt="imagen simbolo de justicia">
-                            <img class="imagen-item item1" src="./assets/img/panadero.jpg" alt="imagen de panadero flor">
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-               
+        <div class="row">
+          <div class="col">
+            <img class="imagen-item item1" src="./assets/img/entrevista1.png" alt="imagen de entrevista">
+          </div>
+          <div class="col">
+            <img class="imagen-item item2"  src="./assets/img/ley.jpg" alt="imagen simbolo de justicia">
+          </div>
+          <div class="col">
+            <img class="imagen-item item1" src="./assets/img/panadero.jpg" alt="imagen de panadero flor">
+          </div>
+        </div>
+      </div>
 
     </main>
 
@@ -123,8 +149,8 @@
             </div>
         </div>
     </footer>
-    
-
+    <script src="https://kit.fontawesome.com/949042685a.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
