@@ -5,7 +5,8 @@
 .logo {
     width: 150px;
     height: auto;
-    margin: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
     border-radius: 50%;
     background-color: #ccc;
     max-width: none;
@@ -19,14 +20,13 @@
     margin: 15px;
     padding: 15px;
     
-    
 }
 
 .nav-item {
     font-size:1.2rem;
     font-weight: 550;
-    margin: 15px;
-    padding: 15px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -45,30 +45,27 @@
   
   .btn-buscar:hover {
     background-color: #1a71ce; 
-    
     color: #ffffff; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
   }
   
 
-
-
-
 /*----------------------body ----------------------------*/  
 
 .imagen-inicio {
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .titulo-inicio {
-    font-size: 2rem; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 4rem; 
+    text-shadow: 2px 2px 4px rgba(235, 231, 231, 0.7);
     padding: 10px 20px; 
     border-radius: 5px; 
   }
+  
 
 .imagen-presentacion {
     width: 130%;
@@ -99,8 +96,30 @@
 }
 
 
-/* Boton Whatsup */
+/* ----footer----- */
 
+.redes-soc a {
+  font-size: 1.5rem;
+  color: #495057; 
+}
+
+.redes-soc a:hover {
+  color: #007bff; 
+}
+
+.footer-nav a {
+  border-radius: 2px;
+  margin: 3px;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+   background-color: #cfdef1; 
+}
+
+/* Boton Whatsup */
+ 
 .whatsapp-button {
     display: inline-flex;
     align-items: center;
@@ -123,4 +142,4 @@
   .whatsapp-button i {
     margin-right: 10px;
     
-  }
+  } 
