@@ -7,31 +7,56 @@
     <meta name="description" content="Pisologia y Leyes, perito de parte, asesoramiento, cursos">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Javier Alvaredo">
-    <title>Servicios</title>
+    <title>Psicologia y Ley</title>
+    <link rel="shortcut icon" href="../assets/img/psicologia_ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    <link rel="shortcut icon" href="./assets/img/psicologia_ico.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/949042685a.js" crossorigin="anonymous"></script> <!-- iconos del footer -->
-
 </head>
 
 <body>
-     
     <header class="header">
-        
-        <nav class="header-nav">
-            <ul>
-                <li class="item-nav item1"> <a href="../index.html"> <img class="logo" src="../assets/img/logo-psico.jpg "
-                            alt="logo psicologia"></a> </li>
-                <li class="item-nav item2">Psicología y Ley</li>
-                <li class="item-nav item3"><a href="../index.html">Inicio</a></li>
-                <li class="item-nav item4"><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li class="item-nav item5"><a href="./nuestros_servicios.html ">Servicios</a></li>
-                <li class="item-nav item6"><a href="../pages/contacto.html">Contacto</a></li>
-                <li class="item-nav item7"><a href="../pages/carrito.html">Solicitar Entrevista</a></li>
-            </ul>
+
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+          <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center texto-logo" href="index.html">
+              <img src="../assets/img/logo-psico.jpg" alt="Logo" class="d-inline-block align-middle logo">
+              <p>Psicología y Ley</p>
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./nuestros_servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/carrito.html">Solicitar Entrevista</a>
+                </li>
+    
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success btn-buscar" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
         </nav>
-        
-    </header>
+      </header>
         
 
     <main>
@@ -123,53 +148,63 @@
     </main>
 
 
-    <footer>
-        <div class="footer-container">
-
-            <div class="footer-item item1" >
-                <a href="../index.html"> <img class="logo" src="../assets/img/logo-psico.jpg" 
-                    alt="imagen logo psicologia"></a>
-            </div>
-
-            <div class="footer-item item2"> 
-                <h3>Psicología y Ley</h3>
-                <p><i class="fa-solid fa-location-dot"></i> Av. Corrientes 625, Piso 4º, C.A.B.A.</p>
-                <i class="fas fa-phone me-3"></i>+54 11 61037852</p>
-                <a href="mailto:info@psicoley.com.ar"><i class="fa-solid fa-envelope"></i>info@psicoley.com.ar</a>
-            </div>
-                    
-            <!-- Sección de redes sociales -->
-            <div class="footer-item item3">
-                <h3 id="h6-red-soc">Seguinos en redes sociales</h3>
-                <div class="redes-soc">
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                </div>    
-            </div>
-
-            
-            <!-- Sección navegación -->
-
-            <div class="footer-item item4">
-                <h3>Navegacion</h3>
-                <p><a href="../index.html">Inicio</a></p>
-                <p><a href="./nuestros_servicios.html">Servicios</a></p>
-                <p><a href="../pages/nosotros.html">Nosotros</a></p>
-                <p><a href="../pages/carrito.html">Solicitar Entrevista</a></p>
-                <p><a href="../pages/contacto.html">Contacto</a></p>
-            </div>
-
-            <div class = "whatsup-div">
-                <!-- Botón de WhatsApp -->
-                <a class="whatsapp-button" href="https://wa.me/1234567890" target="_blank">
-                <i class="fab fa-whatsapp"></i>WhatsApp</a>
-            </div>
+<!-- footer -->
+<footer class="footer">
+    <div class="container-fluid text-center bg-body-secondary py-4">
+      <div class="row align-items-start gy-4">
+  
+        <!-- Logo -->
+        <div class="col-12 col-md-2">
+          <a class="navbar-brand" href="index.html">
+            <img src="../assets/img/logo-psico.jpg" alt="Logo" width="120" height="120" 
+              class="d-inline-block align-middle logo">
+          </a>
         </div>
-    </footer>
-
-    </body>
-
-</html>
+  
+        <!-- Información de contacto -->
+        <div class="col-12 col-md-3">
+          <h3>Psicología y Ley</h3>
+          <p><i class="fa-solid fa-location-dot"></i> Av. Corrientes 625, Piso 4º, C.A.B.A.</p>
+          <p><i class="fas fa-phone me-3"></i> +54 11 61037852</p>
+          <a href="mailto:info@psicoley.com.ar"><i class="fa-solid fa-envelope"></i>info@psicoley.com.ar</a>
+        </div>
+  
+        <!-- Redes Sociales -->
+        <div class="col-12 col-md-3">
+          <h3 id="h6-red-soc">Seguinos en redes sociales</h3>
+          <div class="redes-soc">
+            <a href="https://www.facebook.com/" target="_blank" class="me-2"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/" target="_blank" class="me-2"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" class="me-2"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+  
+        <!-- Navegación -->
+        <div class="col-12 col-md-2 footer-nav">
+          <h3>Navegación</h3>
+          <p><a href="../index.html">Inicio</a></p>
+          <p><a href="../pages/nosotros.html">Nosotros</a></p>
+          <p><a href="./nuestros_servicios.html">Servicios</a></p>
+          <p><a href="../pages/contacto.html">Contacto</a></p>
+          <p><a href="../pages/carrito.html">Solicitar Entrevista</a></p>
+        </div>
+  
+        <!-- Botón de WhatsApp -->
+        <div class="col-12 col-md-2">
+          <a class="whatsapp-button btn btn-success d-inline-flex align-items-center justify-content-center" 
+            href="https://wa.me/1234567890" target="_blank">
+            <i class="fab fa-whatsapp me-2"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+    <script src="https://kit.fontawesome.com/949042685a.js" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+  
+  </html>
