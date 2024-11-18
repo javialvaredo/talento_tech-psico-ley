@@ -89,6 +89,14 @@
     .titulo-pagina {
       font-size: 2rem;
     }
+    .navbar-brand.d-flex.align-items-center.texto-logo img {
+      width: 80px;
+    }
+    .navbar-brand.d-flex.align-items-center.texto-logo p {
+      font-size: 1.5rem;
+    
+    }
+
   }
 
 .imagen-presentacion {
@@ -110,8 +118,6 @@
     border-radius: 3px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
-
-
 
 
 .imagen-item {
@@ -199,7 +205,110 @@
   } 
 
 
-/*------pagina contacto */
+  /*---------------Pagina Nosotros------------------- */
+
+  .titulo-pagina.equipo1 {
+    text-align: center;
+    font-size: 4rem; 
+    text-shadow: 2px 2px 4px rgba(39, 37, 37, 0.7);
+}
+
+.item1.nosotros {
+    margin-bottom: 50px;
+}
+  .titulo-pagina.equipo2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 650; 
+    margin: 0px;
+    padding: 3px;
+  }
+
+
+
+.imagen-nosotros img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding:0;
+    width: 70%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 992px) {
+  .titulo-pagina.titulo-pagina.equipo1 {
+    font-size: 3rem;
+  }
+  .titulo-pagina.titulo-pagina.equipo2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo-pagina.titulo-pagina.equipo1 {
+    font-size: 2rem;
+  }
+  .titulo-pagina.titulo-pagina.equipo2 {
+    font-size: 1rem;
+  }
+
+
+}
+
+/*---------------Nuestros Servicios------------------- */
+
+
+/* Estilo para las imágenes de las tarjetas */
+
+
+.titulo-pagina.nuestros-servicios {
+  text-align: center;
+  font-size: 3.5rem; 
+  text-shadow: 2px 2px 4px rgba(39, 37, 37, 0.7);
+  margin: 25px;
+  padding: 25px;
+}
+
+.card img {
+  width: 100%; 
+  height: auto; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+}
+
+
+.card {
+  width: 22rem;
+  margin: 30px; 
+}
+
+.card.curso {
+  width: 40rem;
+  
+}
+
+
+@media (max-width: 992px) {
+  .titulo-pagina.nuestros-servicios {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo-pagina.nuestros-servicios {
+    font-size: 2rem;
+  }
+  .card.curso {
+    width: 22rem;
+  }
+
+}
+
+
+/*---------------Pagina Contacto------------------- */
+
 
 .titulo-pagina.contacto {
   text-align: center;
@@ -210,21 +319,7 @@
 }
 
 
-/* --------------Formulario de Contacto-------------- */
-
-.google h2 {
-  margin-bottom:60px;
-  padding: 20px;
-  text-shadow: 2px 2px 4px rgba(39, 37, 37, 0.7);
-}
-
-.google iframe {
-  width: 600px;
-  height: 450px;
-  border: 0;
-  margin-bottom: 40px;
-}
-
+/* -----Formulario de Contacto-------- */
 
 .formulario-contacto {
   margin: 20px;
@@ -264,11 +359,26 @@
   background-color: #45a049;
 }
 
+/*----------Iframe Google ---------*/
+
 .google h1 {
   margin-top: 20px;
   padding: 15px;
   
 }
+.google h2 {
+  margin-bottom:60px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(39, 37, 37, 0.7);
+}
+
+.google iframe {
+  width: 600px;
+  height: 450px;
+  border: 0;
+  margin-bottom: 40px;
+}
+
 
 /*----------Carrito de reservas ---------------------*/
 
