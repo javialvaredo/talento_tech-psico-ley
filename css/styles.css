@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 
+.body {
+  background-color: rgb(222, 222, 233) ;
+}
+
+.header, .footer {
+  background-color: #afa3a38f; 
+}
+
 .navbar-brand.d-flex.align-items-center.texto-logo {
   margin: 5px;
   padding: 0px;
@@ -35,7 +43,7 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    background-color: #cfdef1; 
+    background-color: #aca5a5;
     border-radius: 5px;
     transition: all 0.3s ease;
        
@@ -61,7 +69,7 @@
    
 }
 
-/*----------------------body ----------------------------*/  
+/*----------------------main ----------------------------*/  
 
 .imagen-inicio {
     width: 100%;
@@ -173,7 +181,7 @@
 }
 
 .footer-nav a:hover {
-   background-color: #cfdef1; 
+  background-color: #aca5a5;
 }
 
 
@@ -266,8 +274,8 @@
   text-align: center;
   font-size: 3.5rem; 
   text-shadow: 2px 2px 4px rgba(39, 37, 37, 0.7);
-  margin: 25px;
-  padding: 25px;
+  margin: 15px;
+  padding: 5px;
 }
 
 .card img {
@@ -275,12 +283,12 @@
   height: auto; 
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  
+ 
 }
 
 
 .card {
-  width: 22rem;
+  width: 18rem;
   margin: 30px; 
 }
 
@@ -302,6 +310,62 @@
   }
   .card.curso {
     width: 22rem;
+  }
+
+}
+
+.multimedia-items.item1 h3 {
+  margin: 30px;
+  padding: 25px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(39, 37, 37, 0.7);
+}
+
+.multimedia-items.item3 {
+  position: relative; 
+}
+
+.multimedia-items.item3 video {
+  width: 900px;
+}
+
+
+.text-overlay {
+  position: absolute;
+  font-family: "Sour Gummy", sans-serif;
+  font-size:1.2rem;
+  font-weight: 300;
+  top: 25%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: rgb(255, 255, 255);
+  padding: 5px; 
+  text-align: center;
+}
+
+.multimedia-items.item4 {
+  margin: 20px;
+  padding: 20px;
+}
+
+
+@media (max-width: 992px) {
+  .multimedia-items.item3 video {
+    width: 700px;
+  }
+  .text-overlay {
+    font-size:1rem;
+    top: 35%;
+  }
+}
+
+@media (max-width: 768px) {
+  .multimedia-items.item3 video {
+    width: 400px;
+  }
+  .text-overlay {
+    font-size:0.8rem;
+    top: 45%;
   }
 
 }

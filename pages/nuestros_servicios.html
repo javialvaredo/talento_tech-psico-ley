@@ -14,10 +14,10 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head>
 
-<body>
+<body class="body">
     <header class="header">
 
-        <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center texto-logo" href="index.html">
               <img src="../assets/img/logo-psico.jpg" alt="Logo" class="d-inline-block align-middle logo">
@@ -72,7 +72,7 @@
                   <img src="../assets/img/familia.jpg" alt="Imagen de familia">
                   <div class="card-body">
                     <h5 class="card-title">Familia</h5>
-                    <p class="card-text">Evaluaciones vinculares, Tratamientos de revinculacion, Tratamientos de coparentalidad</p>
+                    <p class="card-text">Evaluaciones vinculares, Tratamientos de revinculación, Tratamientos de coparentalidad</p>
                     <a href="#" class="btn btn-primary">Solicitar Entrevista</a>
                   </div>
                 </div>
@@ -95,7 +95,7 @@
                   
                   <div class="card-body">
                     <h5 class="card-title">Adultos y Adultos Mayores</h5>
-                    <p class="card-text"><p>Evaluaciones neurocognitivas, Terapia conductial, Tratamientos por depresión, Tratamientos por ansiedad</p>
+                    <p class="card-text"><p>Evaluaciones neurocognitivas, Terapia conductual, Tratamientos por depresión y ansiedad</p>
                     <a href="#" class="btn btn-primary">Solicitar Entrevista</a>
                   </div>
                 </div>
@@ -107,7 +107,7 @@
                   
                   <div class="card-body">
                     <h5 class="card-title">Violencia Familiar</h5>
-                    <p class="card-text"><p>Terapia, Asesoramiento Legal, informes judiciales </p>
+                    <p class="card-text"><p>Terapia, Asesoramiento legal, Informes judiciales </p>
                     <a href="#" class="btn btn-primary">Solicitar Entrevista</a>
                   </div>
                 </div>
@@ -119,7 +119,7 @@
                   
                   <div class="card-body">
                     <h5 class="card-title">Trastorno Depresivo Mayor</h5>
-                    <p class="card-text"><p>Evaluación Psiquiatrica, Exámenes Fisicos, Terapia </p>
+                    <p class="card-text"><p>Evaluación Psiquiátrica, Exámenes Físicos, Terapia </p>
                     <a href="#" class="btn btn-primary">Solicitar Entrevista</a>
                   </div>
                 </div>
@@ -130,7 +130,7 @@
                   <img src="../assets/img/seleccion_personal.jpg"  alt="Imagen de seleccion de personal">
                   
                   <div class="card-body">
-                    <h5 class="card-title">Seleccion de Personal</h5>
+                    <h5 class="card-title">Selección de personal</h5>
                     <p class="card-text"><p>Búsqueda y selección de talento, Psicotécnicos</p>
                     <a href="#" class="btn btn-primary">Solicitar Entrevista</a>
                   </div>
@@ -141,7 +141,7 @@
                 <div class="card curso">
                   <img src="../assets/img/curso3.jpg" alt="Imagen de curso de capacitación">
                   <div class="card-body">
-                    <h5 class="card-title">Cursos de capacitacion para profesionales</h5>
+                    <h5 class="card-title">Cursos de capacitación para profesionales</h5>
                     <p class="card-text"><p>Formación en técnicas psicológicas, Supervisión, Selección de personal</p>
                     <a href="#" class="btn btn-primary">Solicitar Entrevista</a>
                   </div>
@@ -155,37 +155,51 @@
 
         </section>
 
-
-
-       
+      
+        
         <section>
-            <div class="multimedia">
-
-                <div class="multimedia-items item1" >
-                    <p>La resignación conlleva al abandono, la aceptación al aprendizaje. </p>
-                    <p>La confianza más valiosa es la que debemos tener en nosotros mismos. </p>
-                    <p>Aceptar no es resignar, es moverse hacia delante.</p>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
+                <div class="multimedia-items item1">
+                  <h3 id="te-esperamos">Te esperamos</h3>
                 </div>
-
-                <div class="multimedia-items item2">
-                    <video src="../assets/video/140111-774507949_tiny.mp4" width="500" autoplay loop></video>
-                    
-                </div>
-
-                
-                <div class="multimedia-items item3">
-                    <audio src="../assets/audio/8.- Secret Garden.mp3" controls loop></audio>
-                </div>
+              </div>
             </div>
+        
+            <div class="row">
+              <div class="col">
+                <div class="multimedia-items item3">
+                  <!-- Video -->
+                  <video id="video" src="../assets/video/140111-774507949_tiny.mp4" autoplay loop></video>
+                  
+                  <!-- Texto sobre el video -->
+                  <div class="text-overlay">
+                    <p>La resignación conlleva al abandono, la aceptación al aprendizaje.</p>
+                    <p>La confianza más valiosa es la que debemos tener en nosotros mismos.</p>
+                    <p>Aceptar no es resignar, es moverse hacia delante.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="row">
+              <div class="col">
+                <div class="multimedia-items item4">
+                  <audio id="audio" src="../assets/audio/8.- Secret Garden.mp3" loop></audio>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-
-
+        
     </main>
+
 
 
 <!-- footer -->
 <footer class="footer">
-    <div class="container-fluid text-center bg-body-secondary py-4">
+    <div class="container-fluid text-center py-4">
       <div class="row align-items-start gy-4">
   
         <!-- Logo -->
