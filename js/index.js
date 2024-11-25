@@ -22,3 +22,4 @@ const stopAudioWithDelay = () => {
 
 video.addEventListener('mouseenter', startAudio); // Reproduce el audio al pasar el mouse
 video.addEventListener('mouseleave', stopAudioWithDelay); // Detiene el audio al salir
+
