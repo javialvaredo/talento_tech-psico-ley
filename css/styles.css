@@ -371,6 +371,14 @@
 }
 
 
+/*------Resaltado al haber coincidencia usando el boton de busquda-------*/
+.resaltar {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+
 /*---------------Pagina Contacto------------------- */
 
 
