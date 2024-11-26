@@ -39,7 +39,7 @@ function buscarEnCards(event) {
     // Redirige a la página de servicios con el término como parámetro
     window.location.href = `../pages/nuestros_servicios.html?buscar=${encodeURIComponent(termino)}`;
   } else {
-    alert("Por favor, ingresa un término para buscar.");
+    alert("Por favor, ingresa una palabra para buscar.");
   }
 }
 
