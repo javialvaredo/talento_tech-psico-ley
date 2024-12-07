@@ -1,6 +1,5 @@
 //Funciones para reproducir el audio al pasar con el mouse por el video de la pagina nuestros servicios
 
-
 const video = document.querySelector('#video');
 const audio = document.querySelector('#audio');
 
@@ -29,7 +28,6 @@ if (video && audio) {
 
 // Funcion para buscar elementos desde la barra de busqueda ------------------------------------
 
-// Función para manejar el envío del formulario
 
 function buscarEnCards(event) {
   event.preventDefault(); // Evita el refresco de la página
