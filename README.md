@@ -7,6 +7,6 @@ la temática es dar a conocer y ofrecer los servicios de Psicología y asistenci
 
 La pagina contiene una estructura de html semántico y estilo con css, utilizando flex y grid en la pagina de nuestros servicios, posteriormente se incorporará codigo javascript, y frameworks como Bootstrap, para darle dinamismo y mejorar el diseño.   
 
-Se utilizaron fuentes de "fontawesome", y una animacion en el titulo del index de https://animate.style/
+Se utilizaron fuentes de "fontawesome", y una animaciòn en el titulo del index  de https://animate.style/
 
 
