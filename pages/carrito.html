@@ -50,7 +50,7 @@
     
               </ul>
               <form class="d-flex" role="search">
-                <input  id="buscarInput" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <input  id="buscarInput" class="form-control me-2" type="search" placeholder="Buscar en Servicios" aria-label="Search">
                 <button class="btn btn-outline-success btn-buscar" type="submit">Buscar</button>
               </form>
             </div>
@@ -60,20 +60,23 @@
         
 
     <main>
+      <section class="container">
         <h1 class="titulo_pagina carrito">Carrito de Reservas</h1>
-       
-        <article>
-
-            <section>
-
-            </section>
-
-            <section>
-
-            </section>
-
-        </article>
-
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Servicio</th>
+              <th>precio</th>
+            </tr>
+          </thead>
+          <tbody id="tablaCarrito">
+          </tbody>
+        </table>
+        <div class="mt-3">
+          <h3>Total: $ <span id="totalCarrito">0.00</span></h3>
+        </div>
+        
+      </section>
 
     </main>
 
@@ -135,6 +138,7 @@
         <script src="https://kit.fontawesome.com/949042685a.js" crossorigin="anonymous"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="../js/index.js"></script>
+        <script src="../js/mostrarCarrito.js"></script>
       </body>
       
       </html>

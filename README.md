@@ -12,9 +12,14 @@ Se utilizaron fuentes de "fontawesome"
 Las imágenes se obtuvieron de pagonas que no tienen derecho de autor.
 
 Javascript:
-- Se hizo una validacion del formulario de contacto el codigo esta en el archivo contacto.js
-- Se creò un evento que escucha el paso del mouse pro el video agregando musica
-- Se creo una funcion que escucha el boton buscar del nav para que encuentre palabras claves en la pagina de nuestros servicios 
+- archivo index.js: contiene funcion que escucha el evento del paso de mouse por el video activando el autoplay y agregando música.
+                    Otra funcion que escucha el boton buscar del nav para que encuentre palabras claves en la pagina de nuestros servicios
+
+- archivo validacion_formulario.js, se validan los datos antes de enviar 
+
+- archivo carrito.js: carga los datos seleccionados al carrito
+
+- archivo mostrarCarrito.js: muestra los datos del carrito con la suma y permite eliminar items 
 
 
 

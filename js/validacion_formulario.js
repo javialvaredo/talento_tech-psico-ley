@@ -15,8 +15,9 @@ const validar = (evento) => {
     validarEmail() &&
     validarTelefono() &&
     validarMensaje() &&
-    confirm("Pulsa aceptar para enviar el formulario")
+    confirm("Revise los datos y pulse aceptar para enviar el formulario")
   ) {
+    alert("Formulario enviado correctamente")
     return true; // Permite el envío
   } else {
     evento.preventDefault(); // Evita el envío si hay errores
@@ -51,7 +52,7 @@ const validarMensaje = () => validarCampoVacio("#msg", "El campo Mensaje no pued
 
 
 
-//-------Validaciones especificas de cada input----------------
+//-------Validaciones especificas de cada input utilizando REGEX----------------
 
 
 const validarEmail = () => {
@@ -62,7 +63,7 @@ const validarEmail = () => {
 
     const validarEmail = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
     if (!email || !validarEmail.test(email)) {
-      alert("Email inválido, corrige el campo");
+      alert("Email inválido, corregir el campo");
       return false;
     }
     return true;
@@ -77,7 +78,7 @@ const validarTelefono = () => {
   } else {
 
     if (!regexTelefono.test(telefono)) {
-      alert("ingreso solo números, paréntesis (), guiones - y espacios.");
+      alert("ingresar números, paréntesis (), guiones - y espacios.");
       return false;
     }
   
